@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Agbalumo");
+.redColor{
+    color: red;
+}
+
+body {
+    background-color: snow;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+}
+#paragraph{
+    text-decoration: underline;
+}
+.intro {
+    color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Agbalumo";
+}
+
+.weddev-image{
+    display: block;
+    margin: 20px auto 20px auto; /*top right bottom left*/
+    max-width: 80%;
+}
+@media only screen and (max-width: 600p)
+{
+     .weddev-image{
+        max-width: 100%;
+        margin: 10px auto;
+     }
+}
+.example{
+    background-color: #fbb5b5;
+    border: 1px solid #030000;
+    padding: 50px;
+    margin: 60px;
+}
+
+.container
+{
+    display: block;
+    text-align: center;
+}
+.carousel-item
+{
+    size: 15px;
+    padding: 50px;
+}
+.message
+{
+    font-size: 30px;
+}
+.theHeartTick1, .theHeartTick2
+{
+    display: block;
+    border-radius: 15px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/Love_Heart_symbol.svg");
+    background-size: cover;
+    border: 5px solid rgb(241, 0, 0);
+    margin: 10px auto 10px auto;
+    width: 20%;
+    padding: 20px;
+    cursor: pointer;
+}
+.theHeartTick1:hover, .theHeartTick2:hover
+{
+    display: block;
+    border: 5px dashed rgb(182, 17, 45);
+    margin: 20px auto 20px auto;
+    border-radius: 15px;
+    box-shadow:  5px 10px 18px pink;
+    padding: 20px;
+}
+.textShadow
+{
+    text-shadow: 10px 10px 16px rgb(233, 28, 62);
+}
+.textCenter
+{
+    text-align: center;
+}
+.backGround-image
+{
+    background-image: url("imageSources/cute-abstract-modern-background-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0px;
+}
+.backGround-image h2
+{
+    color: tomato;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.parallax
+{
+    height: 50vh;
+    background-image: url("imageSources/cute-abstract-modern-background-free-vector.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: -10px;
+}
+
+.paralaxContent
+{
+    position: relative;
+    color: #000000;
+    top: 50%;
+    size: 30px;
+    transform:  translateY(-50%);
+    text-align: center;
+    padding: 50px;
+}
+
+.gradian-Background
+{
+    background-image: linear-gradient(to right, tomato, orange, yellow);
+    padding: 100px;
+    font-size: 30px;
+}
+
+.myForm
+{
+    background-color: white;
+    padding: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.myForm label
+{ 
+    display: block;
+}
+
+.myForm input[type="text"], .myForm input[type="email"], .myForm input[type=""], .myForm input[type="password"]
+{
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.myForm button
+{
+    display: block;
+    border: 5px solid rgb(240, 116, 116);
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.myForm button:hover
+{
+    border: 5px dashed rgb(234, 125, 143);
+    box-shadow:  5px 10px 18px pink;
+    border-radius: 20px;
+}
+.centered
+{
+    text-align: right;
+    display: block;
+    padding: 15px;
+}
